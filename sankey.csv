@@ -375,6 +375,7 @@
 4623,Woman,10,2692,SLV,Cabanas,12,regular,1,0,all loans,United States,"Yes, but was returned to the country of origin",Due to expulsion from authorities or involuntarily,Woman,34,3,Domestic work,-Unemployed,1,relatives and friends,591.5
 1358,Woman,49,932,SLV,Usulutan,11 8 1,regular,1,38,no loans,United States,"Yes, but was returned to the country of origin",Due to expulsion from authorities or involuntarily,Man,31,3,Informal work,-Informal work,1,relatives and friends,38
 32,Man,47,6,GTM,San Marcos,1 7 8,irrregular coyote,3,10400,all loans,United States,"Yes, but was returned to the country of origin",By voluntary decision: start business,Man,47,3,Informal work,-Agricultural production or labor,1,financial institution,17680
+716,Man,42,386,GTM,Huehuetenango,1,irrregular coyote,3,3000,no loans,United States,"Yes, but was returned to the country of origin",By voluntary decision: start business,Man,83,3,Own business,-Own business,1,on own,4650
 218,Man,24,111,GTM,San Marcos,1 2 6,"irregular on own, with caravan",3,38,no loans,Mexico,"Yes, you reside in the destination country",,Man,24,3,Informal work,-Agricultural production or labor,1,on own,38
 218,Woman,23,113,GTM,San Marcos,1,regular,,38,all loans,Mexico,"Yes, but was returned to the country of origin",Other,Man,24,3,Informal work,-Agricultural production or labor,1,financial institution,38
 258,Man,27,147,GTM,San Marcos,1 2 6,irrregular coyote,3,38,all loans,United States,"Yes, you reside in the destination country",,Man,25,5,Informal work,-Agricultural production or labor,1,relatives and friends,38
@@ -875,7 +876,6 @@
 52,Man,51,23,GTM,Huehuetenango,1 2,"irregular on own, with caravan",1,38,all loans,United States,"Yes, you reside in the destination country",,Woman,51,3,Own business,-Own business,1,financial institution,38
 399,Man,18,217,GTM,San Marcos,1 7 8,irrregular coyote,3,3250,all loans,United States,"Yes, you reside in the destination country",,Man,45,3,Own business,-Own business,1,financial institution,5037.5
 579,Man,34,327,GTM,Huehuetenango,2 1,irrregular coyote,3,13000,all loans,United States,"No, but he resided in another country and was returned",By voluntary decision: other,Man,34,3,Own business,-Own business,1,relatives and friends,58500
-716,Man,42,386,GTM,Huehuetenango,1,irrregular coyote,3,3000,no loans,United States,"Yes, but was returned to the country of origin",By voluntary decision: start business,Man,83,3,Own business,-Own business,1,on own,4650
 781,Woman,24,418,HND,Cortes,1 9,irrregular coyote,,10000,no loans,United States,"Yes, you reside in the destination country",,Woman,34,3,Own business,-Own business,1,relatives and friends,17000
 781,Woman,34,420,HND,Cortes,1,"irregular on own, with caravan",,38,no loans,United States,"No, but he resided in another country and was returned",Due to expulsion from authorities or involuntarily,Woman,34,3,Own business,-Own business,1,relatives and friends,38
 897,Woman,25,465,GTM,Chiquimula,15,irrregular coyote,3,38,no loans,United States,"Yes, but was returned to the country of origin",Other,Woman,27,3,Own business,-Own business,1,on own,38

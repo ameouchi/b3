@@ -138,7 +138,7 @@ d3.csv("sankey.csv").then(function(data) {
   // now loop through each nodes to make nodes an array of objects
   // rather than an array of strings
   sankeydata.nodes.forEach(function (d, i) {
-    sankeydata.nodes[i] = { "name": d, "color": d.color };
+    sankeydata.nodes[i] = { "name": d,  };
   });
   
   
@@ -159,7 +159,7 @@ d3.csv("sankey.csv").then(function(data) {
 //       .style("stroke-width", function(d) { return Math.max(1, d.dy); })
       .sort(function(a, b) { return b.dy - a.dy; })
         // .on('mouseover', showDetail)
-        .on('mouseover', d => {
+        .on('mouseover', function (event, d)  {
             showDetail(d);
                 sourceClass = occuAttr[d.source.name.split('-')[1]].class;
                 sourceColor = occuAttr[d.source.name.split('-')[1]].color
@@ -185,7 +185,7 @@ d3.csv("sankey.csv").then(function(data) {
                     .duration(300)
                     .style("fill", sourceColorb);
         })
-      .on('mouseout', function(d) {
+      .on('mouseout', function(event, d) {
           hideDetail(d);
           link.transition()
           
@@ -212,7 +212,7 @@ d3.csv("sankey.csv").then(function(data) {
 
 // add the rectangles for the nodes
  node.append("rect")
-      .attr("class", d => {
+      .attr("class", function(d) {
             if (d.name.startsWith('-')) {
                 sourceClass = occuAttr[d.name.split('-')[1]].class;
                 return "node source-" + sourceClass;
